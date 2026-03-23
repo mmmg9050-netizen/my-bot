@@ -4,7 +4,7 @@ from yt_dlp import YoutubeDL
 import os
 
 # التوكن الخاص بك
-TOKEN =8724256615:AAH8SkpH-mo-wTYNuYfWxMYhXvz1l32OeHw
+TOKEN = '8724256615:AAH8SkpH-mo-wTYNuYfWxMYhXvz1l32OeHw'
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start'])
